@@ -1,5 +1,16 @@
 {
   "dependencies": {
+    "com.henrylab.vragent": {
+      "version": "https://github.com/TsingPig/VRAgent_Release.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.test-framework": "1.0.16",
+        "com.unity.settings-manager": "1.0.1",
+        "com.unity.xr.interaction.toolkit": "2.0.4"
+      },
+      "hash": "554008ee3a582241618faa8ab76bbb4e3acf96e2"
+    },
     "com.henrylab.vrexplorer": {
       "version": "https://github.com/TsingPig/VRExplorer_Release.git",
       "depth": 0,
@@ -9,7 +20,7 @@
         "com.unity.settings-manager": "1.0.1",
         "com.unity.xr.interaction.toolkit": "2.0.4"
       },
-      "hash": "06a5b566fe2d9c9d77f0f40efec707a966640d02"
+      "hash": "a3e2955a5070f17029ae184e0a6d60421bdf8a4b"
     },
     "com.unity.collab-proxy": {
       "version": "2.5.2",
@@ -81,6 +92,16 @@
         "com.unity.ext.nunit": "1.0.6",
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.cn"
+    },
+    "com.unity.testtools.codecoverage": {
+      "version": "1.2.7",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.0.16",
+        "com.unity.settings-manager": "1.0.1"
       },
       "url": "https://packages.unity.cn"
     },
